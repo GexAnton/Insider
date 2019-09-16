@@ -1,0 +1,10 @@
+
+Cчитывание строки до пустой строки
+//BufferedReader
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+String line;
+while (!(line = reader.readLine()).equals("")) {...}
+//Scanner
+Scanner sc = new Scanner(System.in);
+String line;
+while (!((line=sc.next()).equals(""))){
